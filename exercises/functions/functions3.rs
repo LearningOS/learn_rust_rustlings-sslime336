@@ -1,10 +1,9 @@
 // functions3.rs
 // Make me compile! Execute `rustlings hint functions3` for hints :)
 
-// I AM NOT DONE
 
 fn main() {
-    call_me();
+    call_me(123 as u32); // perhaps 123 is also ok, compiler while do the type inference
 }
 
 fn call_me(num: u32) {
